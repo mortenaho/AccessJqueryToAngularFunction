@@ -2,12 +2,13 @@
  
  
 If you do not have jquery installed, first install it with the following command.
+```javascript
 STEP 1 - First things first
 
 npm install --save jquery
-
+````
 STEP 2 - IMPORT
-
+```javascript
 import * as $ from 'jquery';
 
 export class AppComponent implements OnInit 
@@ -19,3 +20,4 @@ export class AppComponent implements OnInit
          });
     }
 }
+```
